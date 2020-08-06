@@ -3,12 +3,16 @@ public class Impostazioni {
     public final static String CASELLA_VUOTA = "  ";
     public final static String OSTACOLO = "##";
     public final static String GIOCATORE = "G";
-    private static int numOstacoli;
     public static int dimensioneX;
     public static int dimensioneY;
     public static String[][] griglia;
     public static int numGiocatori;
+    private static int numOstacoli;
 
+    //Visualizza il numero di giocatori nella mappa
+    static int numGiocatori() {
+        return numGiocatori;
+    }
 
     //void creaMappa(int dimensioneX, int dimensioneY, int numOstacoli, int numGiocatori)
     void creaMappa(int dimensioneX, int dimensioneY, int numOstacoli, int numGiocatori) {
@@ -52,11 +56,6 @@ public class Impostazioni {
             k = i - 1;
             System.out.println("\n");
         }
-    }
-
-    //Visualizza il numero di giocatori nella mappa
-    static int numGiocatori() {
-        return numGiocatori;
     }
 
 }

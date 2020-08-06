@@ -1,13 +1,13 @@
 public class Giocatore {
+    public static int[] giocatoreN = new int[Impostazioni.numGiocatori];
     public int k;
     public int posizioneX;
     public int posizioneY;
-    public static int[] giocatoreN = new int[Impostazioni.numGiocatori];
     public boolean spara = false;
     public boolean vivo = true;
+    public int numVite = 2;
     //public boolean colpito = false;
     boolean error = false;
-    public int numVite = 2;
 
     public Giocatore(int giocatoreN) {
         this.giocatoreN[giocatoreN - 1] = giocatoreN;
