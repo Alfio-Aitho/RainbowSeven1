@@ -13,7 +13,7 @@ public class RainbowSeven {
         giocatore1.posizionaGiocatore();
         giocatore2.posizionaGiocatore();
 
-        System.out.println("\n");
+        System.out.println("ATTENZIONE cavallino camperatori!! \n");
         mappa.visualizzaMappa();
         System.out.println("\n");
 
