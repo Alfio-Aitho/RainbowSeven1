@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-
+    // si fa partire con il comando: "mvn spring-boot:run"
 
     public class DemoApplication {
 
